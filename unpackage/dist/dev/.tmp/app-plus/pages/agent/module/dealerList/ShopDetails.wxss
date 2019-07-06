@@ -1,0 +1,298 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+uni-page-body.data-v-2c1965bb {
+  width: 100%;
+  height: 100%;
+  background: #F1F1F1;
+}
+.ShopDetails.data-v-2c1965bb {
+  background: #F1F1F1;
+}
+.ShopDetails .header.data-v-2c1965bb {
+    width: 100%;
+    height: 203rpx;
+    background-image: url(../../static/img/t17.6f9ead68.png);
+    background-size: 100% 272rpx;
+    background-repeat: no-repeat;
+    padding: 69rpx 0rpx 0rpx 30rpx;
+}
+.ShopDetails .header .header_box.data-v-2c1965bb {
+      width: 30%;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: start;
+      -webkit-justify-content: flex-start;
+          -ms-flex-pack: start;
+              justify-content: flex-start;
+}
+.ShopDetails .header .header_box .iconfont.data-v-2c1965bb {
+        color: #fff;
+        font-size: 36rpx;
+}
+.ShopDetails .header .header_box .header_title.data-v-2c1965bb {
+        color: #fff;
+        font-size: 30rpx;
+        letter-spacing: 3rpx;
+}
+.ShopDetails .content.data-v-2c1965bb {
+    padding: 0rpx 30rpx 26rpx 30rpx;
+    position: relative;
+}
+.ShopDetails .content .content1.data-v-2c1965bb {
+      height: 100rpx;
+}
+.ShopDetails .content .content1 .content1_item.data-v-2c1965bb {
+        width: 660rpx;
+        height: auto;
+        background-color: #ffffff;
+        -webkit-border-radius: 10rpx;
+                border-radius: 10rpx;
+        padding: 30rpx 14rpx 30rpx 14rpx;
+        position: absolute;
+        top: -80rpx;
+        left: 30rpx;
+}
+.ShopDetails .content .content1 .content1_item view.data-v-2c1965bb {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: start;
+          -webkit-justify-content: flex-start;
+              -ms-flex-pack: start;
+                  justify-content: flex-start;
+          font-size: 24rpx;
+          margin-bottom: 19rpx;
+}
+.ShopDetails .content .content1 .content1_item .Shop_name.data-v-2c1965bb {
+          font-size: 40rpx;
+          color: #333333;
+          font-weight: 600;
+}
+.ShopDetails .content .content1 .content1_item .Shop_person.data-v-2c1965bb {
+          color: #333333;
+}
+.ShopDetails .content .content1 .content1_item .Shop_address.data-v-2c1965bb {
+          color: #999999;
+}
+.ShopDetails .content .content1 .content1_item .Shop_address .time.data-v-2c1965bb {
+            margin-left: 30rpx;
+}
+.ShopDetails .content .content1 .content1_item .photo.data-v-2c1965bb {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: justify;
+          -webkit-justify-content: space-between;
+              -ms-flex-pack: justify;
+                  justify-content: space-between;
+          margin-top: 40rpx;
+}
+.ShopDetails .content .content1 .content1_item .photo view.data-v-2c1965bb {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: start;
+            -webkit-justify-content: flex-start;
+                -ms-flex-pack: start;
+                    justify-content: flex-start;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -webkit-flex-direction: column;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            margin: 0rpx;
+}
+.ShopDetails .content .content1 .content1_item .photo view .picture.data-v-2c1965bb {
+              width: 211rpx;
+              height: 211rpx;
+              -webkit-border-radius: 10rpx;
+                      border-radius: 10rpx;
+              border: solid 1rpx #bfbfbf;
+}
+.ShopDetails .content .content1 .content1_item .photo view .picture image.data-v-2c1965bb {
+                width: 208rpx;
+                height: 208rpx;
+                -webkit-border-radius: 10rpx;
+                        border-radius: 10rpx;
+}
+.ShopDetails .content .content1 .content1_item .photo view .title.data-v-2c1965bb {
+              font-size: 24rpx;
+              color: #999999;
+              text-align: center;
+}
+.ShopDetails .content .content1 .content1_item .head_portrait.data-v-2c1965bb {
+          width: 100rpx;
+          height: 100rpx;
+          -webkit-border-radius: 10rpx;
+                  border-radius: 10rpx;
+          position: absolute;
+          top: -50rpx;
+          right: 10px;
+}
+.ShopDetails .content .content1 .content1_item .head_portrait image.data-v-2c1965bb {
+            width: 100rpx;
+            height: 100rpx;
+            -webkit-border-radius: 10rpx;
+                    border-radius: 10rpx;
+}
+.ShopDetails .content .content2.data-v-2c1965bb {
+      width: 686rpx;
+      height: 288rpx;
+      background-color: #ffffff;
+      -webkit-border-radius: 10rpx;
+              border-radius: 10rpx;
+      margin-top: 20rpx;
+      padding: 51rpx 3rpx 51rpx 4rpx;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap;
+}
+.ShopDetails .content .content2 .box.data-v-2c1965bb {
+        width: 337rpx;
+        height: 142rpx;
+}
+.ShopDetails .content .content2 .box .content2_title.data-v-2c1965bb {
+          font-size: 28rpx;
+          color: #999999;
+          text-align: center;
+}
+.ShopDetails .content .content2 .box .content2_number.data-v-2c1965bb {
+          font-size: 50rpx;
+          color: #febf66;
+          text-align: center;
+}
+.ShopDetails .content .content2 .one.data-v-2c1965bb {
+        border-right: 1rpx solid #e5e5e5;
+        border-bottom: 1rpx solid #e5e5e5;
+}
+.ShopDetails .content .content2 .two.data-v-2c1965bb {
+        border-bottom: 1rpx solid #e5e5e5;
+}
+.ShopDetails .content .content2 .tree.data-v-2c1965bb {
+        border-right: 1rpx solid #e5e5e5;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: end;
+        -webkit-justify-content: flex-end;
+            -ms-flex-pack: end;
+                justify-content: flex-end;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+}
+.ShopDetails .content .content2 .four.data-v-2c1965bb {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: end;
+        -webkit-justify-content: flex-end;
+            -ms-flex-pack: end;
+                justify-content: flex-end;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+}
+.ShopDetails .content .content3.data-v-2c1965bb {
+      padding: 20rpx 10rpx 35rpx 14rpx;
+      background-color: #ffffff;
+      -webkit-border-radius: 10rpx;
+              border-radius: 10rpx;
+      margin-top: 20rpx;
+}
+.ShopDetails .content .content3 .content3_title.data-v-2c1965bb {
+        font-size: 28rpx;
+        color: #333333;
+        font-weight: 600;
+}
+.ShopDetails .content .content3 .content3_info.data-v-2c1965bb {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        padding: 30rpx 0rpx 30rpx 0rpx;
+        border-bottom: 1rpx solid #eeeeee;
+}
+.ShopDetails .content .content3 .content3_info .goods_photo.data-v-2c1965bb {
+          width: 140rpx;
+          height: 139rpx;
+          -webkit-border-radius: 10rpx;
+                  border-radius: 10rpx;
+          border: 1px solid #f1f1f1;
+}
+.ShopDetails .content .content3 .content3_info .goods_photo image.data-v-2c1965bb {
+            width: 140rpx;
+            height: 139rpx;
+            -webkit-border-radius: 10rpx;
+                    border-radius: 10rpx;
+}
+.ShopDetails .content .content3 .content3_info .goods_info.data-v-2c1965bb {
+          width: 507rpx;
+          padding-right: 10rpx;
+          -webkit-box-sizing: border-box;
+                  box-sizing: border-box;
+}
+.ShopDetails .content .content3 .content3_info .goods_info .goods_name.data-v-2c1965bb {
+            font-size: 28rpx;
+            color: #333333;
+}
+.ShopDetails .content .content3 .content3_info .goods_info .goods_details.data-v-2c1965bb {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: justify;
+            -webkit-justify-content: space-between;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
+            font-size: 24rpx;
+            color: #666666;
+}
+

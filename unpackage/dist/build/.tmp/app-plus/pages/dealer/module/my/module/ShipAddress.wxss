@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+uni-page-body.data-v-573d9888 {
+  width: 100%;
+  height: 100%;
+  background: #F1F1F1;
+}
+.shipaddress.data-v-573d9888 {
+  background: #F1F1F1;
+  padding: 35rpx 30rpx 30rpx 30rpx;
+}
+.shipaddress .NoData.data-v-573d9888 {
+    padding-top: 216rpx;
+    text-align: center;
+}
+.shipaddress .NoData image.data-v-573d9888 {
+      width: 353rpx;
+      height: 292rpx;
+}
+.shipaddress .NoData .title.data-v-573d9888 {
+      font-size: 48rpx;
+      color: #febf66;
+      margin-top: 24rpx;
+      letter-spacing: 8rpx;
+}
+.shipaddress .NoData .explain.data-v-573d9888 {
+      font-size: 24rpx;
+      color: #999999;
+      margin-top: 50rpx;
+      letter-spacing: 3rpx;
+}
+.shipaddress .HaveData .address_info.data-v-573d9888 {
+    padding: 20rpx 32rpx 30rpx 31rpx;
+    background: #fff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 20rpx;
+    border-radius: 10rpx;
+}
+.shipaddress .HaveData .address_info .info.data-v-573d9888 {
+      width: 482rpx;
+}
+.shipaddress .HaveData .address_info .info .title.data-v-573d9888 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        margin-bottom: 19rpx;
+}
+.shipaddress .HaveData .address_info .info .title .name.data-v-573d9888 {
+          font-size: 30rpx;
+          color: #333333;
+          font-weight: 600;
+}
+.shipaddress .HaveData .address_info .info .title .number.data-v-573d9888 {
+          font-size: 24rpx;
+          color: #999999;
+}
+.shipaddress .HaveData .address_info .info .address.data-v-573d9888 {
+        font-size: 24rpx;
+        color: #666666;
+}
+.shipaddress .HaveData .address_info .icon-shanchu1.data-v-573d9888 {
+      font-size: 40rpx;
+      color: #cccccc;
+}
+.shipaddress .load_text.data-v-573d9888 {
+    font-size: 25rpx;
+    color: #fc7c28;
+    text-align: center;
+    margin: 20rpx 0;
+}
+.shipaddress .hint_text.data-v-573d9888 {
+    font-size: 18rpx;
+    color: #666;
+    text-align: center;
+    margin: 20rpx 0;
+}
+

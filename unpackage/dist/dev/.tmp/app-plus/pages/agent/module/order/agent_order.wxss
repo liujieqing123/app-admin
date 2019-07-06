@@ -1,0 +1,415 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.order.data-v-5ac73d08 {
+  width: 100%;
+  height: 100vh;
+  background: #F1F1F1;
+  padding: 245rpx 0rpx 120rpx 0rpx;
+}
+.order .head_style.data-v-5ac73d08 {
+    width: 100%;
+    position: fixed;
+    top: 0rpx;
+    left: 0;
+    background: #fff;
+    padding-top: 55rpx;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    z-index: 9999;
+}
+.order .head_style .serach.data-v-5ac73d08 {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      width: 100%;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      padding: 15rpx;
+      font-size: 28rpx;
+      background: #fff;
+}
+.order .head_style .serach .content.data-v-5ac73d08 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        width: 598rpx;
+        height: 58rpx;
+        background-color: #efefef;
+        overflow: hidden;
+        -webkit-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        transition: all 0.2s linear;
+        -webkit-border-radius: 30px;
+                border-radius: 30px;
+}
+.order .head_style .serach .content .content-box.data-v-5ac73d08 {
+          width: 100%;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+              -ms-flex-align: center;
+                  align-items: center;
+}
+.order .head_style .serach .content .content-box.center.data-v-5ac73d08 {
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+}
+.order .head_style .serach .content .content-box .iconfont.data-v-5ac73d08 {
+            padding: 0 15rpx;
+}
+.order .head_style .serach .content .content-box .iconfont.iconfont-del.data-v-5ac73d08 {
+              font-size: 38rpx;
+}
+.order .head_style .serach .content .content-box .icon-guanbi2.data-v-5ac73d08 {
+            color: #ccc;
+}
+.order .head_style .serach .content .content-box .iconfangdajing.data-v-5ac73d08 {
+            font-size: 40rpx;
+}
+.order .head_style .serach .content .content-box .input.data-v-5ac73d08 {
+            width: 100%;
+            max-width: 100%;
+            line-height: 60rpx;
+            height: 60rpx;
+            -webkit-transition: all 0.2s linear;
+            -o-transition: all 0.2s linear;
+            transition: all 0.2s linear;
+}
+.order .head_style .serach .content .content-box .input.center.data-v-5ac73d08 {
+              width: 200rpx;
+}
+.order .head_style .serach .content .content-box .input.sub.data-v-5ac73d08 {
+              width: auto;
+              color: grey;
+}
+.order .head_style .serach .content .serachBtn.data-v-5ac73d08 {
+          height: 100%;
+          -webkit-flex-shrink: 0;
+              -ms-flex-negative: 0;
+                  flex-shrink: 0;
+          padding: 0 30rpx;
+          background: #4cd964;
+          line-height: 60rpx;
+          color: #fff;
+          border-left: 1px #ccc solid;
+          -webkit-transition: all 0.3s;
+          -o-transition: all 0.3s;
+          transition: all 0.3s;
+}
+.order .head_style .serach .button.data-v-5ac73d08 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        position: relative;
+        -webkit-flex-shrink: 0;
+            -ms-flex-negative: 0;
+                flex-shrink: 0;
+        width: 0;
+        -webkit-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        transition: all 0.2s linear;
+        white-space: nowrap;
+        overflow: hidden;
+}
+.order .head_style .serach .button.active.data-v-5ac73d08 {
+          padding-left: 15rpx;
+          width: 100rpx;
+}
+.order .head_style .tab.data-v-5ac73d08 {
+      height: 110rpx;
+      background: white;
+      letter-spacing: 5rpx;
+      border-bottom: 1px solid #eee;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-justify-content: space-around;
+          -ms-flex-pack: distribute;
+              justify-content: space-around;
+}
+.order .head_style .tab .title.data-v-5ac73d08 {
+        height: 110rpx;
+        line-height: 110rpx;
+        font-size: 30rpx;
+        color: #666666;
+}
+.order .head_style .tab .cur.data-v-5ac73d08 {
+        font-size: 40rpx;
+        font-weight: 600;
+        color: #febf66;
+}
+.order .OrderInfo.data-v-5ac73d08 {
+    padding: 30rpx 30rpx 130rpx 30rpx;
+    background: #F1F1F1;
+}
+.order .OrderInfo .Info.data-v-5ac73d08 {
+      background: #ffffff;
+      -webkit-border-radius: 10rpx;
+              border-radius: 10rpx;
+      padding: 20rpx;
+      margin-bottom: 20rpx;
+}
+.order .OrderInfo .Info .order_title.data-v-5ac73d08 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+}
+.order .OrderInfo .Info .order_title .title_left.data-v-5ac73d08 {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: start;
+          -webkit-justify-content: flex-start;
+              -ms-flex-pack: start;
+                  justify-content: flex-start;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          letter-spacing: 5rpx;
+          border-bottom: 1px solid #eee;
+          padding-bottom: 8rpx;
+}
+.order .OrderInfo .Info .order_title .title_left .OrderNum.data-v-5ac73d08 {
+            font-size: 28rpx;
+            color: #666;
+            font-weight: 600;
+}
+.order .OrderInfo .Info .order_title .title_left .number.data-v-5ac73d08 {
+            font-size: 28rpx;
+            color: #333333;
+}
+.order .OrderInfo .Info .order_title .presell.data-v-5ac73d08 {
+          font-size: 28rpx;
+          color: #fc2b3f;
+}
+.order .OrderInfo .Info .GoodsInfo.data-v-5ac73d08 {
+        margin-top: 10rpx;
+}
+.order .OrderInfo .Info .GoodsInfo .ShopNames.data-v-5ac73d08 {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: start;
+          -webkit-justify-content: start;
+              -ms-flex-pack: start;
+                  justify-content: start;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          margin-bottom: 10rpx;
+          font-weight: 600;
+}
+.order .OrderInfo .Info .GoodsInfo .ShopNames .logo.data-v-5ac73d08 {
+            width: 30rpx;
+            height: 30rpx;
+            line-height: 30rpx;
+            margin-right: 10rpx;
+}
+.order .OrderInfo .Info .GoodsInfo .ShopNames .logo image.data-v-5ac73d08 {
+              width: 30rpx;
+              height: 30rpx;
+}
+.order .OrderInfo .Info .GoodsInfo .ShopNames .Sname.data-v-5ac73d08 {
+            font-size: 30rpx;
+            color: #333333;
+}
+.order .OrderInfo .Info .GoodsInfo .InfoDetails.data-v-5ac73d08 {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -webkit-flex-direction: column;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          -webkit-box-pack: justify;
+          -webkit-justify-content: space-between;
+              -ms-flex-pack: justify;
+                  justify-content: space-between;
+          padding-bottom: 10rpx;
+}
+.order .OrderInfo .Info .GoodsInfo .InfoDetails .top.data-v-5ac73d08 {
+            font-size: 30rpx;
+            color: #333333;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: justify;
+            -webkit-justify-content: space-between;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
+}
+.order .OrderInfo .Info .GoodsInfo .InfoDetails .top .goods_name.data-v-5ac73d08 {
+              width: 65%;
+              overflow: hidden;
+              -o-text-overflow: ellipsis;
+                 text-overflow: ellipsis;
+              white-space: nowrap;
+}
+.order .OrderInfo .Info .GoodsInfo .InfoDetails .bottom.data-v-5ac73d08 {
+            width: 28rpx;
+            font-size: 24rpx;
+            color: #999999;
+            padding-left: 621rpx;
+}
+.order .OrderInfo .Info .Payment.data-v-5ac73d08 {
+        border-top: 1px dashed #eee;
+        border-bottom: 1px dashed #eee;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        padding: 8rpx 0;
+}
+.order .OrderInfo .Info .Payment view.data-v-5ac73d08 {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: justify;
+          -webkit-justify-content: space-between;
+              -ms-flex-pack: justify;
+                  justify-content: space-between;
+          font-size: 16rpx;
+          color: #666;
+          padding: 2rpx 0;
+}
+.order .OrderInfo .Info .Payment .earnest view.data-v-5ac73d08 {
+          color: #fc7c28;
+}
+.order .OrderInfo .Info .OrderPrice.data-v-5ac73d08 {
+        margin-top: 30rpx;
+}
+.order .OrderInfo .Info .OrderPrice .Common.data-v-5ac73d08 {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: justify;
+          -webkit-justify-content: space-between;
+              -ms-flex-pack: justify;
+                  justify-content: space-between;
+          margin-top: 8rpx;
+}
+.order .OrderInfo .Info .OrderPrice .Common .CommonTitle.data-v-5ac73d08 {
+            font-size: 25rpx;
+            color: #999999;
+}
+.order .OrderInfo .Info .OrderPrice .Common .CommonNum.data-v-5ac73d08 {
+            font-size: 32rpx;
+            color: #fe3f31;
+            font-weight: 600;
+}
+.order .OrderInfo .Info .fbottom.data-v-5ac73d08 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        margin-top: 26rpx;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+}
+.order .OrderInfo .Info .fbottom button.data-v-5ac73d08 {
+          width: 184rpx;
+          height: 58rpx;
+          -webkit-border-radius: 29rpx;
+                  border-radius: 29rpx;
+          border: solid 2rpx #febf66;
+          font-size: 28rpx;
+          color: #febf66;
+          line-height: 58rpx;
+          margin: 0;
+          background: #fff;
+}
+.order .OrderInfo .Info .fbottom .DeliveryStatus.data-v-5ac73d08 {
+          font-size: 25rpx;
+          color: red;
+}
+.order .OrderInfo .load_text.data-v-5ac73d08 {
+      font-size: 25rpx;
+      color: #fc7c28;
+      text-align: center;
+      margin: 20rpx 0;
+}
+.order .OrderInfo .hint_text.data-v-5ac73d08 {
+      font-size: 18rpx;
+      color: #666;
+      text-align: center;
+      margin: 20rpx 0;
+}
+

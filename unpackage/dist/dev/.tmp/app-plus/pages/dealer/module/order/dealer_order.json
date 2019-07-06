@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "change-price": "/pages/dealer/module/order/ChangePrice",
+    "tki-qrcode": "/components/tki-qrcode/tki-qrcode"
+  },
+  "component": true
+}

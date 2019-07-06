@@ -1,0 +1,7 @@
+{
+  "titleNView": false,
+  "usingComponents": {
+    "neil-modal": "/pages/dealer/module/my/module/NeilModa",
+    "add-employees": "/pages/dealer/module/my/module/AddEmployees"
+  }
+}

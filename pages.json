@@ -1,0 +1,211 @@
+{
+	"pages": [ 
+		{
+			"path": "pages/index/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "white"
+			}
+		},
+		{
+			"path": "pages/index/reg",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "white"
+			}
+		},
+		{
+			"path": "pages/index/forgetpassword",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "white"
+			}
+		},
+		{
+			"path": "pages/index/approve",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "white"
+			}
+		},
+		{
+			"path": "pages/index/hint",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/agent/agent",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/dealer/dealer",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/dealer/module/my/module/attestation",
+			"style": {
+				"navigationBarTitleText": "我的认证",
+				"navigationBarBackgroundColor": "white"
+			}
+		},
+		{
+			"path": "pages/dealer/module/my/module/DealerChangeNum",
+			"style": {
+				"navigationBarTitleText": "修改手机号码",
+				"navigationBarBackgroundColor": "white"
+			}
+		},
+		{
+			"path": "pages/dealer/module/my/module/DealerProperty",
+			"style": {
+				"navigationBarTitleText": "我的财产"
+			}
+		},
+		{
+			"path": "pages/dealer/module/my/module/employe",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/dealer/module/my/module/ShipAddress",
+			"style": {
+				"navigationBarTitleText": "发货地址",
+				"navigationBarBackgroundColor": "white"
+			}
+		},
+		{
+			"path": "pages/dealer/module/my/module/WithdrawDeposit",
+			"style": {
+				"navigationBarTitleText": "提现"
+			}
+		},
+		{
+			"path": "pages/dealer/module/my/module/DetailedAccounts",
+			"style": {
+				"navigationBarTitleText": "账目明细"
+			}
+		},
+		{
+			"path": "pages/dealer/module/my/module/WithdrawDetails",
+			"style": {
+				"navigationBarTitleText": "提现详情"
+			}
+		},
+		{
+			"path": "pages/dealer/module/my/module/OrderAccountDetails",
+			"style": {
+				"navigationBarTitleText": "账单详情"
+			}
+		},
+		{
+			"path": "pages/agent/module/my/module/property",
+			"style": {
+				"navigationBarTitleText": "我的财产"
+			}
+		},
+		{
+			"path": "pages/agent/module/my/module/WithdrawDetails",
+			"style": {
+				"navigationBarTitleText": "提现详情"
+			}
+		},
+		{
+			"path": "pages/agent/module/my/module/OrderAccountDetails",
+			"style": {
+				"navigationBarTitleText": "账单详情"
+			}
+		},
+		{
+			"path": "pages/agent/module/my/module/ChangeNum",
+			"style": {
+				"navigationBarTitleText": "修改手机号码",
+				"navigationBarBackgroundColor": "white"
+			}
+		},
+		{
+			"path": "pages/agent/module/my/module/QrCode",
+			"style": {
+				"navigationBarTitleText": "我的二维码",
+				"navigationBarBackgroundColor": "#feba65"
+			}
+		},
+		{
+			"path": "pages/agent/module/my/module/recommend",
+			"style": {
+				"navigationBarTitleText": "我的推荐",
+				"navigationBarBackgroundColor": "white"
+			}
+		},
+		{
+			"path": "pages/agent/module/my/module/DetailedAccounts",
+			"style": {
+				"navigationBarTitleText": "账目明细"
+			}
+		},
+		{
+			"path": "pages/agent/module/my/module/WithdrawDeposit",
+			"style": {
+				"navigationBarTitleText": "提现"
+			}
+		},
+		{
+			"path": "pages/dealer/module/shopGoods/module/edit",
+			"style": {
+				"navigationBarTitleText": "编辑商品"
+			}
+		},
+		{
+			"path": "pages/order/orderDetails",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/agent/module/dealerList/ShopDetails",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "red"
+	},
+	"condition" : { 
+		"current": 4, 
+		"list": [
+			{
+				"name": "首页", 
+				"path": "pages/dealer/dealer", 
+				"query": "" 
+			},
+			{
+				"name": "登录", 
+				"path": "pages/index/login", 
+				"query": "" 
+			},
+			{
+				"name": "认证", 
+				"path": "pages/index/approve", 
+				"query": "" 
+			}
+		]
+	}
+}
